@@ -1,16 +1,8 @@
 /*
  * 练习1.14:
- * 编写程序，从cin读取一组数，输出其和
-*/
-
-#include <iostream>
-
-int main(){
-    int sum = 0, val = 0;
-    std::cout << "Enter numbers, ctrl+D to end" << std::endl;
-    while (std::cin >> val){
-        sum += val;
-    }
-    std::cout << "Sum of these numbers is " << sum << std::endl;
-    return 0;
-}
+ * 对比for循环和while循环，两种形式的优缺点各是什么？
+ * 答：
+ * 在循环次数已知的情况下，for循环的形式显然更为简洁。
+ * 在循环次数无法预知时，用while循环实现更适合。
+ * 用特定条件控制循环是否执行，循环体中执行的语句可能导致循环判定条件发生变化。
+ */
